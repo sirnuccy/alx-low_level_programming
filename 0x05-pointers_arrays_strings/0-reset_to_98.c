@@ -1,17 +1,11 @@
-/**
- * A function that takes a pointer to an int as 
- * parameter and updates the value it points to 98
- */
-
-
-
 #include "main.h"
-#include <stdio.h>
+/**
+*reset_to_98 - reset value of an integer to 98
+*@n: parameter targeted
+*Return : nothing
+*/
 
-int main(void) {
-	int n;
-	int * reset_to_98 = &n;
-	*reset_to_98 = 98;
-
-	return (0);
+void reset_to_98(int *n)
+{
+*n = 98;
 }
